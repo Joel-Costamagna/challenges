@@ -1,4 +1,6 @@
 #!/bin/bash
+#http://adventofcode.com/day/
+
 input=$(cat entree.txt)
 floor=0
 echo $floor
