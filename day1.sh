@@ -22,14 +22,14 @@ for (( i = 0; i < ${#input}; i++ )); do
   if [[ $character == '(' ]]; then
     floor=$(($floor + 1))
     if [[ $floor == -1 ]]; then
-        echo i
+        echo $i
         exit 0
     fi
   fi
   if [[ $character == ')' ]]; then
     floor=$(($floor-1))
     if [[ $floor == -1 ]]; then
-        echo i
+        echo $i
         exit 0
     fi
   fi
