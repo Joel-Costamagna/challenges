@@ -4,7 +4,6 @@
 # h profondeur
 #quantité de papier par cadeau = 2*l*w + 2*w*h + 2*h*l + w*h
 # cadeau sous la forme lxwxh
-import os
 total = 0
 ribbon = 0
 for line in open('day2.txt'):
@@ -18,4 +17,4 @@ for line in open('day2.txt'):
     total += aire + slack
 
 print("quantité de papier nécessaire : ",total,"square feet", "\n quanité de ruban : ", ribbon, "feet")
-os.system("pause")
+input("Appuyez sur la touche ENTREE pour continuer...")
