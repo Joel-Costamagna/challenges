@@ -1,4 +1,3 @@
-#!/bin/bash
 # l longueur
 # w largeur
 # h profondeur
