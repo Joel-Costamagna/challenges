@@ -21,14 +21,14 @@ for (( i = 0; i < ${#input}; i++ )); do
   character=${input:$i:1} #on prend le caractére à la position i
   if [[ $character == '(' ]]; then
     floor=$(($floor + 1))
-    if [[$floor == -1]]; then
+    if [[ $floor == -1 ]]; then
         echo i
         exit 0
     fi
   fi
   if [[ $character == ')' ]]; then
     floor=$(($floor-1))
-    if [[$floor == -1]]; then
+    if [[ $floor == -1 ]]; then
         echo i
         exit 0
     fi
