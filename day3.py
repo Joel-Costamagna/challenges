@@ -12,7 +12,7 @@ for i in input:
     elif i == "<":
         x -= 1
     else:
-        print(fatal error)
+        print("fatal error")
     Matrix[x,y] = 1 # onb ajoute  un élément à la matrice pour chaque nouvelle maison visitée (si la masion est déjà visitée ça ne fera rien)
 for i in Matrix:
     Unique_Houses += 1 #les maisons visitées sont dans la matrice
